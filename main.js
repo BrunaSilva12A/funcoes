@@ -7,10 +7,10 @@
     console.log("Você é muito legal!")
 }
 
-mensagem ()
+mensagem ()*/
 
 
-exemplo 2
+/*exemplo 2
  function somar (numero1, numero2){
     console.log ( numero1 + numero2)
 }
@@ -20,10 +20,10 @@ let numero2 = 23
 
 somar(numero1, numero2)
 somar(30, 12)
-somar(19, 289)
+somar(19, 289)*/
 
 
-exemplo 3
+/*exemplo 3
 function raizQuadrada(numero){
     console.log(Math.sqrt(numero))
 }
@@ -41,10 +41,10 @@ let numero2 = Number(prompt("Digite o número 2:"))
 
 raizQuadrada(numero1)
 potenciacao (numero1, numero2)
-multiplicacao (numero2, numero1)
+multiplicacao (numero2, numero1)*/
 
 
-exemplo 4
+/*exemplo 4
 function raizQuadrada(numero){
    return Math.sqrt(numero)
 }
@@ -63,10 +63,10 @@ let numero2 = Number(prompt("Digite o número 2:"))
  let raiz1 = raizQuadrada(numero1)
  let raiz2 = raizQuadrada(numero2)
 
- console.log(raiz1, raiz2)
+ console.log(raiz1, raiz2)*/
 
  
- exemplo 5
+ /*exemplo 5
 function boasVindas(nome, idade) {
     return `Seja bem-vindo(a), ${nome}! ${nome}, você é muito especial! Parabéns pelo seu aniversário de ${idade} anos.
     `
@@ -78,13 +78,11 @@ let idade = prompt("Digite sua idade:")
 let mensagem = boasVindas(nome, idade)
 
 alert(mensagem)
-console.log(mensagem)
+console.log(mensagem)*/ 
 
-*/ 
+//  funçoes anônimas = funções sem nome
 
-// funçoes anônimas = funções sem nome
-
-function mensagemBoasVindas(){
+/* function mensagemBoasVindas(){
     console.log("oi")
 }
 
@@ -92,4 +90,22 @@ function mensagemBoasVindas(){
     console.log("Bem-vindo(a)!")
  }
 
- console.log(mensagemBoasVindas)
+ let somar = function(valor1, valor2){
+    return valor1 + valor2
+ }
+
+ console.log(mensagem())
+ console.log(somar(10, 20))*/
+
+ // arrow function
+ let mensagem = () => {
+    console.log("Olá, tudo bem?")
+ }
+
+let somar = (valor1, valor2) => valor1 + valor2
+
+let raizQuadrada = (valor1) => Math.sqrt(valor1)
+
+ console.log(mensagem())
+ console.log(somar(25, 768))
+ console.log(raizQuadrada(49))
